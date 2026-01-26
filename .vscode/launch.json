@@ -1,0 +1,14 @@
+{
+   "version": "0.2.0",
+   "configurations": [
+    
+    
+       {
+           "name": "Python: VmExecuter",
+           "type": "debugpy",
+           "request": "launch",
+           "program": "${workspaceFolder}/Tkinter.py",
+           "console": "integratedTerminal"
+       }
+   ]
+}
