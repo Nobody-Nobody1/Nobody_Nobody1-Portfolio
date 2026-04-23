@@ -215,7 +215,7 @@ section {
 
 section#hero {
   background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
-    url("/assets/background_image.jpg");
+    url("/assets/background_image.webp");
   padding-bottom: 4px;
   background-size: cover;
   background-position: top;
