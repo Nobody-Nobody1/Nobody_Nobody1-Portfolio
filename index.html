@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>My Portfolio</title>
- <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
- <nav>
-   <h1>John Doe</h1>
-   <ul>
-     <li><a href="#about">About</a></li>
-     <li><a href="#projects">Projects</a></li>
-     <li><a href="#contact">Contact</a></li>
-   </ul>
- </nav>
-</header>
-<section id="hero">
- <h2>Hello, I'm Nobody_Nobody1</h2>
- <p>Hobby Programmer</p>
-</section>
-<section id="about">
- <h2>About Me</h2>
- <p>Passionate about creating small projects that could be expanded upon by being useful</p>
-</section>
-<section id="projects">
- <h2>My Work</h2>
- <div class="project-card">Project 1</div>
- <div class="project-card">Project 2</div>
-</section>
 
-<footer>
- <p>© 2026 Nobody_Nobody1</p>
-</footer>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Nobody-Nobody1 - Dev Portfolio</title>
+</head>
+
+<body>
+    <header class="site_header">
+        <div class="wrapper_inner">
+            <nav class="site_header_nav">
+                <ul role="list" class="flex flex_center">
+                    <li><a href="#0">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="wrapper">
+                <div class="wrapper_inner">
+                    <div class="text_center hero_content">
+                        <h1 class="h2">Nobody-Nobody1</h1>
+                        <p class="h5">Hobby Programmer</p>
+                    </div>
+                </div>
+                <ul role="list" class="flex flex_between hero_social">
+                    <address>Somewhere on Earth</address>
+                    <ul role="list" class="flex">
+                        <li>Find me online</li>
+                        <li>
+                            <a href="https://github.com/Nobody-Nobody1" target="_blank">
+                                <img src="/assets/userPfp.jpg" alt="GitHub" width="24" height="24" />
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </section>
+        <section id="about">
+            <div class="wrapper">
+                <div class="text_center">
+                    <h2>
+                        I am a hobby programmer with exprience with Javascript, Java, Python and currently interested in
+                        learning C++ or C.
+                    </h2>
+                </div>
+                <div class="wrapper_inner">
+                    <div class="about_content flex flex_around">
+                        <figure class="about_figure text_center">
+                            <img width="200px" height="200px" src="/assets/user.png" alt="Developer"
+                                class="about_img" />
+                            <figcaption class="about_caption">Nobody_Nobody1</figcaption>
+                        </figure>
+                        <p class="h5">
+                            I've done a few projects for some organizations as well on my own.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
